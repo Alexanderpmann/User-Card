@@ -8,20 +8,30 @@
     <link rel="stylesheet" href="/web_fundamentals/css/User_card/style.css">
 </head>
 <body>
-    <div class="card">
-        <div class="header">
-            <img class="user-circle" src="./images/user-circle.png" alt="User Circle">
+<div class="flex-container">
+
+    <!-- user info card -->
+    <div class="user-card">
+        <div class="card-header">
+            <img src="./images/user-circle.png" alt="user circle" class="avatar-m">
         </div>
         <div class="card-body">
             <h1>Jane Doe</h1>
-            <div class="location flex">
-                <img class="small" src="./images/map-marker.png" alt="map maker">
-                <h4>Seattle</h4>
-                </div>
+                <h3>
+                    <img src="./images/map-marker.png" alt="map maker" class="icon-s">
+                    Seattle
+                </h3>
             <p>Developer | Engineer | Problem Solver<br>
             Master of shadows and the Internet!</p>        
-                <img class="gear" src="./images/gear.png" alt="gear">
-                <h4 class="profile">edit profile</h4>
-            </div>
+            <p>
+                <a href="#">
+                    <img src="./images/gear.png" alt="gear" class="icon-s">edit profile
+                </a>
+            </p>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
